@@ -1,0 +1,185 @@
+x
+x <- c
+(1,2,4)
+x <- (1,2,4)
+x <- c(1,2,4)
+x
+x (3)
+x
+x(3)
+mean (x)
+x
+x (1)
+x(1)
+x
+mean
+(x)
+mean (x)
+y <- mean(x)
+y
+y # print out y
+# comment: counts the number of odd integers in x
+oddcount <- function(x) {}
+# comment: counts the number of odd integers in x
+oddcount <- function(x) {        }
+oddcount <- function(x) {k <- 0 for (n in x) {if(n %% 2 ==1) k <- k+1}
+oddcount <- function (x)   {                        k <- 0                                                       for (n in x)  {                                                                if (n %% 2 == 1) k <- k + 1                               }}
+oddcount <- function (x)   {                        k <- 0                                                       for (n in x)  {                                                                if (n %% 2 == 1) k <- k + 1                               } return (k)}
+oddcount <- function (x) {                                    k <- 0                                                      for (n in x) {                                              if (n %% 2 == 1) k <- k+1                                  }                                                      return(k)                                                    }
+oddcount <- function(x) {
+k <- 0
+for (n in x) {
+if (n %% 2 == 1) k <- k+1
+}
+return(k)
+}
+}
+oddcount (5)
+source('~/.active-rstudio-document')
+oddcount (5)
+1:5
+length (x)
+y (1) <- 5
+y <- c(5,12)
+y <- vector (length=2)
+y(1) <- 5
+5:8
+i <- 2
+1: i-1
+1 : (i-1)
+i <- 2
+1:i-1
+1:(i-1)
+# comment: counts the numbers of odd integers in x
+oddcount <- function(x)  {                        k <- 0}
+oddcount <- function(x) {                                    k <- 0                                               for (n in x){                                          if (n %% 2 == 1) k <- k+1}                                     return(k)                                            }
+seq(12,30,3)
+seq(1.1,2,length=10)
+oddcount(c(1,3,5))
+oddcount(c(1,3,5))
+oddcount(c(1,3,5))
+oddcount(c(1,3,5))
+oddcount <- function(x) {                                    k <- 0,                                               for (n in x){                                          if (n %% 2 == 1) k <- k+1}                                     return(k)                                            }
+oddcount <- function(x) {                                    k <- 0                                               for (n in x){                                          if (n %% 2 == 1) k <- k+1}                                     return(k)                                            }
+c (1,2,4) + c(6,0,9,20,22)
+y <- c(1.2,3.9,.4,.12)
+y[c(1,3)]
+y [1]
+y [1,3]
+x <- c(1,2,4)
+names (x)
+names (x) <- (a,b,ab)
+names (x) <- ("a","b","ab")
+names (x) <- c(a,b,ab)
+names (x) <- c("a","b","ab")
+names (x)
+x
+x("b")
+x["b"]
+y <- matrix(c(1,2,3,4), nrow=2,ncol=2)
+y
+y <- matrix(c(1,2,3,4), ncol=2,nrow=2)
+y
+y <- null
+y <- [null]
+x <- 3
+x
+x <- c(1,2,3)
+x
+x <- matrix(c(1,2,3,4,5),nrow=3)
+x <- matrix(c(1,2,3,4,5,6),nrow=3)
+x
+x [1,2]
+x [1,]
+x [,2]
+y <- matrix(nrow=2,ncol=2)
+y[1,1]=1
+y
+y[1,2]=2
+y[2,1]=3
+y[2,2]=4
+y
+x %*% y
+x[c(2,3),]
+x[c(1:3),]
+x[,2:3] <- matrix(c(1,1,8,12),nrow=2)
+x
+x[2:3,]<-matrix(c(1,1,8,12),nrow=2)
+x
+x[2:3,1]<-cbind (1,1)
+x
+x[2:3,1]<-cbind (1)
+x
+x[2:3,1:2]<-cbind (1,1)
+x
+x[2:3,1:2]<-cbind (1:2,1:2)
+x
+nrow(x)
+ncolumn(x)
+nxol(x)
+ncol(x)
+u <- c(1,2,2)
+u
+ncol(u)
+v <- as.matrix(u)
+v
+attributes (v)
+attributes (u)
+one
+one <- c(1,1,1)
+one
+one <- rep(1)
+one
+one <- rep(4)
+one
+one <- rep(4,3)
+one
+cbind(x,one)
+cbind (one, x)
+one <- matrix(c(1,2,3,4),nrow=2)
+cbind (one, x)
+j
+j <- list(name="Joe", salary=55000, union=T)
+j
+names (j)
+unlist (J)
+unlist (j)
+ulj <- unlist(j)
+class (ulj)
+class (j)
+class (x)
+x <- (abc=2,de=5)
+x <- (abc="2", de=5)
+x <- (c(abc=2,de=5))
+x
+class (x)
+mean (data 1)
+mean (data [,1])
+mean?
+?mean
+?mean
+names(data)
+names (data)
+data <- read.csv("C:/Users/jdanehower/Desktop/training_filev1.csv", header = TRUE)
+names (data)
+data <- read.csv("C:/Users/jdanehower/Desktop/training_filev1.csv", header = TRUE)
+names (data)
+names(data)
+source('~/.active-rstudio-document')
+save(Census1.RDATA)
+save("Census1.RDATA")
+save(file= "Census1.RDATA")
+ls()
+save(ls(),file= "Census1.RDATA")
+x= ls()
+save(x, file= "Census1.RDATA")
+getwd()
+getwd()
+ls()
+history(max.show-Inf)
+history(max.show=Inf)
+savehistory(file="myfile")
+save(x, file= "Census1.RDATA")
+data <- read.csv("C:/Users/jdanehower/Desktop/training_filev1.csv", header = TRUE)
+cor (data$Females_CEN_2010, data$Females_ACS_06_10)
+savehistory(file="myfile")

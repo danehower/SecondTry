@@ -1,0 +1,51 @@
+Utah|R|+ 30.768 
+Idaho|R|+ 27.018 
+Wyoming|R|+ 26.132 
+Nebraska|R|+ 22.606 
+Alaska|R|+ 20.946 
+Oklahoma|R|+ 20.152 
+Kansas|R|+ 16.892 
+North Dakota|R|+ 16.484 
+Alabama|R|+ 15.162 
+Texas|R|+ 12.872 
+Mississippi|R|+ 12.766 
+South Dakota|R|+ 11.920 
+South Carolina|R|+ 11.230 
+Montana|R|+ 9.668 
+Kentucky|R|+ 9.408 
+Indiana|R|+ 9.398 
+Georgia|R|+ 6.814 
+North Carolina|R|+ 6.086 
+Tennessee|R|+ 5.228 
+Arizona|R|+ 4.990 
+Louisiana|R|+ 4.824 
+Virginia|R|+ 3.252 
+West Virginia|R|+ 0.902 
+Colorado|R|+ 0.238 
+Arkansas|R|+ 0.080 
+Florida|D|+ 0.320 
+Missouri|D|+ 1.156 
+Ohio|D|+ 1.432 
+Nevada|D|+ 2.004 
+New Hampshire|D|+ 4.176 
+Iowa|D|+ 5.110 
+Wisconsin|D|+ 5.838 
+New Mexico|D|+ 6.056 
+Pennsylvania|D|+ 7.040 
+Oregon|D|+ 7.798 
+Minnesota|D|+ 8.860 
+Michigan|D|+ 9.120 
+Washington|D|+ 10.774 
+New Jersey|D|+ 11.656 
+Maine|D|+ 12.136 
+Delaware|D|+ 13.814 
+California|D|+ 14.414 
+Connecticut|D|+ 14.954 
+Illinois|D|+ 15.844 
+Maryland|D|+ 16.996 
+Vermont|D|+ 21.006 
+Hawaii|D|+ 21.806 
+New York|D|+ 22.966 
+Rhode Island|D|+ 25.708 
+Massachusetts|D|+ 26.032 
+

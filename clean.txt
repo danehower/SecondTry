@@ -1,0 +1,42 @@
+#####################################################################
+#  Tilte - clean.pl 
+#
+#  Requires - perl or portable perl
+#
+#  Purpose - This script will take a data file and clean it of
+#  special characters so that it can be loaded into SAS
+#
+#  Kenny Darrell
+#
+#  1-30-2012
+#
+#  This file needs to be ran from the portable perl folder
+#  ~\PerlPortable\Perl\bin where the perl.exe exists
+#  You can run the file using a command similar to 
+#  >perl.exe /either dynamic or full file path/clean.pl
+#
+#  This is not an optimal solution because it must read the file
+#  memory as well as use the portable perl contained inside a folder
+#  with no environment variable options to call from anywhere
+#  
+######################################################################
+
+# Open the data file that you wish to clean
+open DATA, "S:/OI/All APEX Extraction/Text Files 2012/201206.txt" or die $!;
+
+# Select a location and file name for the cleaned file
+# this will over the file modifieng > to >> will allow it to append
+open (CLEAN_DATA, ">S:/OI/All APEX Extraction/Text Files 2012/clean_201206.txt");
+
+# loop through the file by each line
+foreach $line (<DATA>)        # $line will get the value the nexr line in <DATA>
+{
+	$line =~ s/"//g;           # replace any double qoute in that row 
+	$line =~ s/'//g;           # replace any single qoute
+	print CLEAN_DATA $line;    # Print to the new file
+}
+
+# Close both file handles
+close DATA;
+close CLEAN_DATA;
+
